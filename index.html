@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<style type="text/css">
+	@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
+*{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+	div{
+		border: 1px solid black;
+		padding: 10px;
+		margin: 10px;
+	}
+
+	.parent_div{
+		    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+	}
+
+	.main_section_div{
+		width: 100%;
+	}
+
+	div[role="banner"]{
+		background: #FF9B9B;
+	}
+
+	div[role="navigation"]{
+		background: #FFD6A5;
+	}
+
+	div[role="main"]{
+		background: #FFFEC4;
+	}
+
+	div[role="region"]{
+		background: #CBFFA9;
+	}
+
+	div[role="complementary"]{
+		background: cadetblue;
+	}
+
+	div[role="contentinfo"]{
+		background: lightsteelblue;
+	}
+
+</style>
+
+<body>
+
+<div role="banner">
+  <h2>Header</h2>
+  <!-- header content -->
+</div>
+
+<div class="parent_div">
+	<div role="navigation">
+  <h2>Navigation</h2>
+  <!-- navigation section content -->
+</div>
+
+<div class="main_section_div">
+	<div role="main">
+	<h1>Aria Landmarks Example</h1>
+	  <h2>Main</h2>
+  <!-- header content -->
+</div>
+
+<div role="region">
+  <h2>Section</h2>
+  <!--  section content -->
+</div>
+</div>
+
+<div role="complementary">
+  <h2>Aside</h2>
+  <!-- complementary section content -->
+</div>
+</div>
+
+<div role="contentinfo">
+  <h2>Footer</h2>
+  <!-- footer content -->
+</div>
+
+
+
+</body>
+</html>
+
